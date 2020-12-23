@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <!--头部信息-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>zshot</title>
+
+    <!--网站favicon可以没有或者改为自己的-->
+    <link rel="shortcut icon" type="image/x-icon" href="static/favicon.png" />
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/Taygetus/taygetus.github.io@master/static/favicon.png" /> -->
+
+    <!--CSS 若不需要变动样式不用改-->
+    <link href="static/zui.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://cdn.jsdelivr.net/gh/Taygetus/taygetus.github.io@master/static/zui.min.css" rel="stylesheet" type="text/css" /> -->
+    <link href="static/self.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://cdn.jsdelivr.net/gh/Taygetus/taygetus.github.io@master/static/self.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body id="nav_body">
+    <header>
+        <div class="main">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="static/favicon.png">
+                    <!-- <img src="https://cdn.jsdelivr.net/gh/Taygetus/taygetus.github.io@master/static/favicon.png"> -->
+                    <span>zshot</span>
+                </a>
+            </h1>
+            <!--顶部导航条-->
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="http://www.2345.com/?k23545260" target="_blank" style="color:black;">2345</a>
+                    </li>
+                    <!-- <li> -->
+                    <!-- <a href="http://mfyidc.com" target="_blank" style="color:black;">蜜蜂云免费CDN</a> -->
+                    <!-- </li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="content">
+        <!--左侧目录，导航跳转-->
+        <div class="left-bar">
+            <div class="header">
+                <h2>目录</h2>
+            </div>
+            <div class="menu" id="menu">
+                <ul class="scrollcontent">
+                    <!--左侧目录，按照需要修改和添加，参考已有的修改名称和href-->
+                    <li><a href="#row-1">常用服务</a></li>
+                    <li><a href="#row-2">影视</a></li>
+                    <li><a href="#row-3">资讯</a></li>
+                    <li><a href="#row-4">阅读</a></li>
+                    <li><a href="#row-5">文件传输</a></li>
+                    <li><a href="#row-6">CDN</a></li>
+                    <li><a href="#row-7">私有服务</a></li>
+                    <li><a href="#row-8">NAT</a></li>
+                    <li><a href="#row-9">杂项</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="main">
+            <div class="container content-box">
+                <!--搜索栏-->
+                <section class="sousuo">
+                    <div class="search">
+                        <div class="search-box">
+                            <button class="search-engine-name" id="search-engine-name">百度</button>
+                            <input type="text" id="txt" class="search-input" placeholder="选择引擎，输入关键字，回车/Enter搜索" />
+                            <button class="search-btn" id="search-btn">搜索</button>
+                        </div>
+                        <!-- 搜索引擎 -->
+                        <div class="search-engine">
+                            <div class="search-engine-head">
+                                <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+                            </div>
+                            <ul class="search-engine-list">
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-1">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>常用服务</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://mo.fish/" class="card-link" target="_blank">
+                                        <div class="card-tit">鱼塘热榜</div>
+                                        <div class="card-desc">摸鱼|捕鲸</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://jandan.net" class="card-link" target="_blank">
+                                        <div class="card-tit">煎蛋</div>
+                                        <div class="card-desc">地球上没有新鲜事</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://et8.org/" class="card-link" target="_blank">
+                                        <div class="card-tit">TCCF</div>
+                                        <div class="card-desc">PT站</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://1ptba.com/torrents.php" class="card-link" target="_blank">
+                                        <div class="card-tit">1ptba</div>
+                                        <div class="card-desc">PT站</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-2">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>影视</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://emby.zshot.top:8096/" class="card-link" target="_blank">
+                                        <div class="card-tit">Emby</div>
+                                        <div class="card-desc">Emby,The open media solution</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.bilibili.com" class="card-link" target="_blank">
+                                        <div class="card-tit">哔哩哔哩</div>
+                                        <div class="card-desc">哔哩哔哩 (゜-゜)つロ 干杯</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.dy2018.com" class="card-link" target="_blank">
+                                        <div class="card-tit">电影天堂</div>
+                                        <div class="card-desc">电影天堂</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://www.rrys.tv" class="card-link" target="_blank">
+                                        <div class="card-tit">人人影视</div>
+                                        <div class="card-desc">人人影视，人人美剧</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.meijutt.tv" class="card-link" target="_blank">
+                                        <div class="card-tit">美剧天堂</div>
+                                        <div class="card-desc">美剧天堂</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>资讯</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.heji.ltd/" class="card-link" target="_blank">
+                                        <div class="card-tit">合集网</div>
+                                        <div class="card-desc">信息资源大全</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.iplaysoft.com" class="card-link" target="_blank">
+                                        <div class="card-tit">异次元软件</div>
+                                        <div class="card-desc">软件改变生活</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.appinn.com" class="card-link" target="_blank">
+                                        <div class="card-tit">小众软件</div>
+                                        <div class="card-desc">分享免费、小巧、实用、有趣、绿色的软件</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.52pojie.cn" class="card-link" target="_blank">
+                                        <div class="card-tit">吾爱破解</div>
+                                        <div class="card-desc">LSG_安卓破解_病毒分析_破解软件</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.moerats.com" class="card-link" target="_blank">
+                                        <div class="card-tit">Rat's Blog</div>
+                                        <div class="card-desc">相逢的人会再相逢</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.right.com.cn/forum/" class="card-link" target="_blank">
+                                        <div class="card-tit">恩山无线论坛</div>
+                                        <div class="card-desc">恩山无线论坛</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.ithome.com/" class="card-link" target="_blank">
+                                        <div class="card-tit">IT之家</div>
+                                        <div class="card-desc">数码，科技，生活 </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-4">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>阅读</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://www.zxcs.me" class="card-link" target="_blank">
+                                        <div class="card-tit">知轩藏书</div>
+                                        <div class="card-desc">藏尽网络中最好的精校小说</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.yousuu.com/" class="card-link" target="_blank">
+                                        <div class="card-tit">优书网</div>
+                                        <div class="card-desc">来此寻找心的书</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.tuishujun.com/" class="card-link" target="_blank">
+                                        <div class="card-tit">推书君</div>
+                                        <div class="card-desc">书荒求书_网络小说推荐</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-5">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>文件传输</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.wenshushu.cn" class="card-link" target="_blank">
+                                        <div class="card-tit">文叔叔</div>
+                                        <div class="card-desc">传文件，找文叔叔</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://cowtransfer.com" class="card-link" target="_blank">
+                                        <div class="card-tit">奶牛快传</div>
+                                        <div class="card-desc">文件传输服务</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://deershare.com/" class="card-link" target="_blank">
+                                        <div class="card-tit">小鹿快传</div>
+                                        <div class="card-desc">简单安全高效的P2P文件传输服务</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-6">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>CDN</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.jsdelivr.com/" class="card-link" target="_blank">
+                                        <div class="card-tit">jsDeliver</div>
+                                        <div class="card-desc">A free CDN for Open Source</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://dash.cloudflare.com" class="card-link" target="_blank">
+                                        <div class="card-tit">Cloudflare</div>
+                                        <div class="card-desc">免费CDN</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://github.com" class="card-link" target="_blank">
+                                        <div class="card-tit">Github</div>
+                                        <div class="card-desc">Github</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://mfyidc.com" class="card-link" target="_blank">
+                                        <div class="card-tit">蜜蜂云免费CDN</div>
+                                        <div class="card-desc">蜜蜂云免费CDN</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-7">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>私有服务</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://zshot.top:880" class="card-link" target="_blank">
+                                        <div class="card-tit">Nextcloud</div>
+                                        <div class="card-desc">Nextcloud.私有云盘</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://zshot.top:8123" class="card-link" target="_blank">
+                                        <div class="card-tit">HomeAssistant</div>
+                                        <div class="card-desc">HomeAssistant</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://zshot.top:1201/" class="card-link" target="_blank">
+                                        <div class="card-tit">RssReader</div>
+                                        <div class="card-desc">FreshRss[GsAlpine]</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a class="card-link" target="_blank">
+                                        <div class="card-tit">腾讯云流量(已用/剩余/总量)</div>
+                                        <div class="card-desc">
+                                            <img src="http://pic.zshot.top:65535/tencentqingliang.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>NAT</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="./note/index.html" class="card-link" target="_blank">
+                                        <div class="card-tit">note</div>
+                                        <div class="card-desc">note</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://nat.zshot.top:9999" class="card-link" target="_blank">
+                                        <div class="card-tit">nps</div>
+                                        <div class="card-desc">nps.管理</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://nat.zshot.top:7500" class="card-link" target="_blank">
+                                        <div class="card-tit">frp</div>
+                                        <div class="card-desc">frp.管理</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://nat.zshot.top:10081" class="card-link" target="_blank">
+                                        <div class="card-tit">unRaid</div>
+                                        <div class="card-desc">unRaid</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://nat.zshot.top:10080" class="card-link" target="_blank">
+                                        <div class="card-tit">unRaid.transmission</div>
+                                        <div class="card-desc">unRaid.transmission</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://nat.zshot.top:10082" class="card-link" target="_blank">
+                                        <div class="card-tit">unRaid.verysync</div>
+                                        <div class="card-desc">unRaid.verysync</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://nat.zshot.top:10083" class="card-link" target="_blank">
+                                        <div class="card-tit">unRaid.filebroweser</div>
+                                        <div class="card-desc">unRaid.filebroweser</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="item card-box" id="row-9">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="item-tit">
+                                <strong>杂项</strong>
+                            </div>
+                            <div class="clearfix two-list-box">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.aconvert.com/" class="card-link" target="_blank">
+                                        <div class="card-tit">文件格式转换</div>
+                                        <div class="card-desc">文件格式转换</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://dnschecker.org/" class="card-link" target="_blank">
+                                        <div class="card-tit">DnsChecker</div>
+                                        <div class="card-desc">DnsChecker</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://music.jsososo.com/" class="card-link" target="_blank">
+                                        <div class="card-tit">云音乐VIP</div>
+                                        <div class="card-desc">云音乐VIP</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://tool.liumingye.cn/music" class="card-link" target="_blank">
+                                        <div class="card-tit">MyFreeMp3</div>
+                                        <div class="card-desc">MyFreeMp3</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="./189.html" class="card-link" target="_blank">
+                                        <div class="card-tit">天翼云盘快速下载</div>
+                                        <div class="card-desc">天翼云盘快速下载</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="http://ip.03k.org" class="card-link" target="_blank">
+                                        <div class="card-tit">公网ip</div>
+                                        <div class="card-desc">公网ip</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6">
+                                    <a href="https://www.leangoo.com/kanban" class="card-link" target="_blank">
+                                        <div class="card-tit">leangoo看板</div>
+                                        <div class="card-desc">leangoo看板</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--内容区域-->
+        </div>
+        <div id="get-top" title="回到顶部">
+            <i class="icon icon-arrow-up"></i>
+        </div>
+    </div>
+    <!-- jQuery (ZUI中的Javascript组件依赖于jQuery) -->
+    <script src="static/jquery-1.11.0.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/Taygetus/taygetus.github.io@master/static/jquery-1.11.0.min.js"></script> -->
+    <script src="static/self.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/Taygetus/taygetus.github.io@master/static/self.js"></script> -->
+</body>
+
+</html>

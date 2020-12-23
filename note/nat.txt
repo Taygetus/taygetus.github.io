@@ -1,0 +1,41 @@
+nginx-proxy-manager:
+	http:81->80
+	https:82->443
+	manage:83->81
+
+nextcloud:880->80
+
+bark:18080->8080
+
+mqtt:18830->1883
+
+freerss:1201->80
+
+home-assistant:8123->8123
+
+mysql:33060->3306
+
+nps:9999-10999
+	manage:9999
+	bind:8024
+	预留: [10000-10009]
+		
+	树莓派4: [10010-10019]
+		树莓派 ssh:10010
+	预留: [10020-10029]
+		
+	俄罗斯vps: [10030-10039]
+		俄罗斯vps ssh:10030
+	家里台式机: [10040-10049]
+		台式机 远程桌面:10040
+	小米mini: [10050-10059]
+		小米mini_web:10050
+	老家路由器: [10060-10069]
+		路由管理:10060
+	预留: [10070-10079]
+		
+	unRaid: [10080-10089]
+		unRaid transmission:10080
+		unRaid:10081
+		unRaid.verysync:10082
+		unRaid.filebroweser:10083

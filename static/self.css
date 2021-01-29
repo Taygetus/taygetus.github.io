@@ -13,8 +13,8 @@ a:focus {
 }
 
 body {
-	/* background-image: url(../static/backimg.png); */
-	background-image: url(https://cdn.jsdelivr.net/gh/Taygetus/taygetus.github.io@master/static/backimg.png);
+	background-image: url(../static/backimg.png);
+	/* background-image: url(https://cdn.jsdelivr.net/gh/Taygetus/taygetus.github.io@master/static/backimg.png); */
 	background-repeat: repeat;
 	background-attachment: fixed;
 	overflow-x: hidden;

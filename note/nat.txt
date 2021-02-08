@@ -39,3 +39,5 @@ nps:9999-10999
 		unRaid:10081
 		unRaid.verysync:10082
 		unRaid.filebroweser:10083
+		unRaid.VMwin10:10084
+		

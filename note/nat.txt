@@ -33,10 +33,10 @@ nps:9999-10999
 		
 	unRaid: [10080-10089]
 		unRaid.Nextcloud:880
-		unRaid transmission:10080
+		unRaid transmission:10085
 		unRaid:10081
 		unRaid.verysync:10082
 		unRaid.filebroweser:10083
-		unRaid.VMwin10:10084
-		unRaid.taskcontrol:10085
+		unRaid.Ô¤Áô:10084
+
 		

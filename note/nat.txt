@@ -1,7 +1,7 @@
 bark:18080->8080
 mqtt:18830->1883
 freerss:1201->80
-home-assistant:8123->8123
+home-assistant:18123->8123
 mysql:33060->3306
 
 nps:9999-10999
